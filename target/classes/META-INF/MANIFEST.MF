@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1510195494220
+Build-Jdk: 1.8.0_151
+Built-By: hyeonwoo
+Bundle-Activator: org.opendaylight.hello.helloActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: helloworld
+Bundle-SymbolicName: helloworld
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.opendaylight.hello;uses:="org.osgi.framework,org.slf
+ 4j,org.opendaylight.controller.sal.binding.api";version="1.0.0.SNAPSHOT
+ "
+Import-Package: org.opendaylight.controller.sal.binding.api;version="[1.
+ 2,2)",org.osgi.framework;version="[1.5,2)",org.slf4j;version="[1.7,2)"
+Tool: Bnd-1.50.0
